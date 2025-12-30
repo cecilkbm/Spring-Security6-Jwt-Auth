@@ -17,7 +17,7 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    private static final String SECRET_KEY = "1bfd40035f4e3a970dfdda3b080d6ddd34b680794131871a53aeec35ea338e56"; // remember to change this!
+    private static final String SECRET_KEY = "Insert Random Generated Token"; // https://generate-random.org/encryption-keys
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
@@ -73,3 +73,4 @@ public class JwtService {
         return Keys.hmacShaKeyFor(keyBytes);
     }
 }
+
