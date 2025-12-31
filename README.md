@@ -1,4 +1,4 @@
-# 🔐 JWT Authentication & Authorization
+# 🌿 JWT Authentication & Authorization
 A production-style JWT-based authentication and authorization service built with Spring Boot 3.x and Spring Security 6.x, designed to implement stateless security, modern configuration patterns, and role-based access control.
 This project served as my final project of 2025 and a deep dive into how modern Spring Security actually works, especially when adapting older tutorials to newer, opinionated APIs.
 
