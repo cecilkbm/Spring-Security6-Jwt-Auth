@@ -31,7 +31,7 @@ Instead of fighting the framework, I slowed down and focused on why things had c
     
 By embracing the Lambda DSL, explicitly wiring security components, and tracing requests through the filter chain, I gained a much clearer mental model of how Spring Security enforces authentication and authorization.
 
-This wasn’t just about “making JWT work”—it was about understanding the framework’s design philosophy.
+This wasn’t just about “making JWT work” it was about understanding the framework’s design philosophy.
 #
 ## Testing & Validation (Postman)
 All critical authentication and authorization flows were validated manually using Postman:
